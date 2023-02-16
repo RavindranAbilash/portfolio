@@ -6,6 +6,7 @@ import './App.css'
 //import the components
 import Header from './components/Head/Header'
 import Home from "./components/Hero/Home";
+import Features from "./components/Features/Features";
 
 
 const App = () =>{
