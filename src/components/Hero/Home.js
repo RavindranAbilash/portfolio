@@ -1,10 +1,11 @@
 import React from "react"
 import "./Home.css"
-import hero from "../pic/hero.png"
-import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
-import { Typewriter } from "react-simple-typewriter"
+// import hero from "../pic/hero.png"
+import hero1 from "../pic/hero1.png"
+// import skill1 from "../pic/skill1.png"
+// import skill2 from "../pic/skill2.png"
+// import skill3 from "../pic/skill3.png"
+import {Typewriter} from "react-simple-typewriter"
 
 const Home = () => {
     return (
@@ -12,51 +13,60 @@ const Home = () => {
             <section className='hero' id='home'>
                 <div className='container f_flex top'>
                     <div className='left top'>
-                        <h3>WELCOME TO MY WORLD</h3>
+                        <h3>STEP INTO MY UNIVERSE</h3>
                         <h1>
-                            Hi, I’m <span>Jone Lee</span>
+                            Hi, I’m <span>Abilash</span>
                         </h1>
                         <h2>
                             a
                             <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Full Stack Developer.", " Programmer."]} loop cursor cursorStyle='|'
+                            typeSpeed={70} deleteSpeed={50} delaySpeed={1000}/>
               </span>
                         </h2>
 
-                        <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                        <p>&emsp;I am an ambitious undergraduate studying Computer Engineering at the University of
+                            Peradeniya.
+                            I am eager to kickstart my career as a Software Engineer,
+                            developing innovative and cutting-edge business solutions for a diverse range of clients.
+                            With experience in software development and process improvement,
+                            I am dedicated to expanding my knowledge and skills to deliver high-quality results.</p>
 
                         <div className='hero_btn d_flex'>
                             <div className='col_1'>
                                 <h4>FIND WITH ME</h4>
                                 <div className='button'>
                                     <button className='btn_shadow'>
-                                        <i class='fab fa-facebook-f'></i>
+                                        <a href="https://www.linkedin.com/in/ravindran-abilash/" target="_blank"><i class='fab fa-linkedin-in'></i></a>
                                     </button>
                                     <button className='btn_shadow'>
-                                        <i class='fab fa-instagram'></i>
+                                        <a href="https://github.com/RavindranAbilash" target="_blank"><i className="fab fa-github"></i></a>
                                     </button>
                                     <button className='btn_shadow'>
-                                        <i class='fab fa-linkedin-in'></i>
+                                        <a href="https://twitter.com/abilash15567496" target="_blank" ><i className="fab fa-twitter"></i></a>
+                                    </button>
+                                    <button className='btn_shadow'>
+                                        <a href="https://fb.com/ravindran.abilash.7"  target="_blank"><i className='fab fa-facebook-f'></i></a>
                                     </button>
                                 </div>
                             </div>
-                            <div className='col_1'>
-                                <h4>BEST SKILL ON</h4>
-                                <button className='btn_shadow'>
-                                    <img src={skill1} alt='' />
-                                </button>
-                                <button className='btn_shadow'>
-                                    <img src={skill2} alt='' />
-                                </button>
-                                <button className='btn_shadow'>
-                                    <img src={skill3} alt='' />
-                                </button>
-                            </div>
+                            {/*<div className='col_1'>*/}
+                            {/*    <h4>BEST SKILL ON</h4>*/}
+                            {/*    <button className='btn_shadow'>*/}
+                            {/*        <img src={skill1} alt='' />*/}
+                            {/*    </button>*/}
+                            {/*    <button className='btn_shadow'>*/}
+                            {/*        <img src={skill2} alt='' />*/}
+                            {/*    </button>*/}
+                            {/*    <button className='btn_shadow'>*/}
+                            {/*        <img src={skill3} alt='' />*/}
+                            {/*    </button>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <div className='right'>
                         <div className='right_img'>
-                            <img src={hero} alt='' />
+                            <img src={hero1} alt=''/>
                         </div>
                     </div>
                 </div>

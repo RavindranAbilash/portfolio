@@ -23,7 +23,7 @@ const Header = () => {
             <header className='header'>
                 <div className='container d_flex'>
                     <div className='logo'>
-                        <a href="https://www.pdn.ac.lk/"><img src={logo} alt='University of Peradeniya' /></a>
+                        {/*<a href="https://www.pdn.ac.lk/"><img src={logo} alt='University of Peradeniya' /></a>*/}
                     </div>
 
                     <div className='navlink'>
