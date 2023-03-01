@@ -10,6 +10,8 @@ import Features from "./components/Features/Features";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import Blog from "./components/Blog/Blog";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer";
 
 
 const App = () =>{
@@ -21,6 +23,8 @@ const App = () =>{
             <Portfolio/>
             <Resume/>
             <Blog/>
+            <Contact/>
+            <Footer/>
         </div>
     )
 }
