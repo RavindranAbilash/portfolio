@@ -9,6 +9,7 @@ import Home from "./components/Hero/Home";
 import Features from "./components/Features/Features";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
+import Blog from "./components/Blog/Blog";
 
 
 const App = () =>{
@@ -19,6 +20,7 @@ const App = () =>{
             <Features/>
             <Portfolio/>
             <Resume/>
+            <Blog/>
         </div>
     )
 }
