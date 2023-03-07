@@ -4,20 +4,36 @@
 .features .box h2 {
   margin: 20px 0 20px 0;
 }
+
 .features .box p {
   word-spacing: 2px;
   transition: 0.5s;
 }
 .features .box i {
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 20px;
   transition: 0.5s;
-  opacity: 0;
+  color: black;
 }
+
+
+.features .skill .btn_shadow {
+  margin: 10px;
+  color: #ff014f;
+  padding: 15px 30px;
+  font-weight: bold;
+
+}
+
 .features .box:hover p {
   color: white;
 }
 .features .box:hover i {
   color: white;
   opacity: 1;
+}
+
+.features .skill .btn_shadow:hover {
+  transform: translate(0);
+  background: #ecf0f3;
 }
