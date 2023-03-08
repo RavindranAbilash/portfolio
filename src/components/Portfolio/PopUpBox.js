@@ -1,12 +1,12 @@
-//import React, { useState } from "react"
-
-//const PopUpBox = () => {
+// import React, { useState } from "react"
+//
+// const PopUpBox = () => {
 //  const [modal, setModal] = useState(false)
-
+//
 //  const toggleModal = () => {
 //    setModal(!modal)
 //  }
-
+//
 //  if (modal) {
 //    document.body.classList.add("active-modal")
 //  } else {
@@ -17,7 +17,7 @@
 //      <button onClick={toggleModal} className='btn-modal'>
 //        Open
 //      </button>
-
+//
 //      {modal && (
 //        <div className='modal'>
 //          <div onClick={toggleModal} className='overlay'></div>
@@ -32,6 +32,6 @@
 //      )}
 //    </>
 //  )
-//}
-
-//export default PopUpBox
+// }
+//
+// export default PopUpBox
