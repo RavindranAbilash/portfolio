@@ -20,7 +20,7 @@ const Home = () => {
                         <h2>
                             a
                             <span>
-                <Typewriter words={[" Full Stack Developer.", " Programmer."]} loop cursor cursorStyle='|'
+                <Typewriter words={[" Full Stack Developer.", " Computer Engineer."]} loop cursor cursorStyle='|'
                             typeSpeed={70} deleteSpeed={50} delaySpeed={1000}/>
               </span>
                         </h2>
@@ -36,32 +36,20 @@ const Home = () => {
                             <div className='col_1'>
                                 <h4>FIND WITH ME</h4>
                                 <div className='button'>
-                                    <button className='btn_shadow'>
-                                        <a href="https://www.linkedin.com/in/ravindran-abilash/" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-                                    </button>
-                                    <button className='btn_shadow'>
-                                        <a href="https://github.com/RavindranAbilash" target="_blank"><i className="fab fa-github"></i></a>
-                                    </button>
-                                    <button className='btn_shadow'>
-                                        <a href="https://twitter.com/abilash15567496" target="_blank" ><i className="fab fa-twitter"></i></a>
-                                    </button>
-                                    <button className='btn_shadow'>
-                                        <a href="https://fb.com/ravindran.abilash.7"  target="_blank"><i className='fab fa-facebook-f'></i></a>
-                                    </button>
+                                    <a href="https://www.linkedin.com/in/ravindran-abilash/" target="_blank"><button className='btn_shadow'>
+                                        <i class='fab fa-linkedin-in'></i>
+                                    </button></a>
+                                    <a href="https://github.com/RavindranAbilash" target="_blank"><button className='btn_shadow'>
+                                        <i className="fab fa-github"></i>
+                                    </button></a>
+                                    <a href="https://twitter.com/abilash15567496" target="_blank" ><button className='btn_shadow'>
+                                        <i className="fab fa-twitter"></i>
+                                    </button></a>
+                                    <a href="https://fb.com/ravindran.abilash.7"  target="_blank"><button className='btn_shadow'>
+                                        <i className='fab fa-facebook-f'></i>
+                                    </button></a>
                                 </div>
                             </div>
-                            {/*<div className='col_1'>*/}
-                            {/*    <h4>BEST SKILL ON</h4>*/}
-                            {/*    <button className='btn_shadow'>*/}
-                            {/*        <img src={skill1} alt='' />*/}
-                            {/*    </button>*/}
-                            {/*    <button className='btn_shadow'>*/}
-                            {/*        <img src={skill2} alt='' />*/}
-                            {/*    </button>*/}
-                            {/*    <button className='btn_shadow'>*/}
-                            {/*        <img src={skill3} alt='' />*/}
-                            {/*    </button>*/}
-                            {/*</div>*/}
                         </div>
                     </div>
                     <div className='right'>
