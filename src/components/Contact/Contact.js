@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import contact1 from "./contact1.png"
+import contact from "./contact.jpg"
 import "./Contact.css"
 
 const Contact = () => {
@@ -45,25 +45,37 @@ const Contact = () => {
             <div className='left'>
               <div className='box box_shodow'>
                 <div className='img'>
-                  <img src={contact1} alt='' />
+                  <img src={contact} alt='' />
                 </div>
                 <div className='details'>
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
+                  <h1>Ravindran Abilash</h1>
+                  <p>Undergraduate @ University of Peradeniya  </p>
+                  <p><br/><br/></p>
+                  <p>Phone: 0094 76 764 2021</p>
+                  <p>Email: abilashravindran08@gmail.com</p> <br />
+                  <p><br/></p>
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-facebook-f'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-instagram'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-twitter'></i>
-                    </button>
+                    <a href="https://www.linkedin.com/in/ravindran-abilash/" target="_blank">
+                      <button className='btn_shadow'>
+                        <i className='fab fa-linkedin-in'></i>
+                      </button>
+                    </a>
+                    <a href="https://github.com/RavindranAbilash" target="_blank">
+                      <button className='btn_shadow'>
+                        <i className="fab fa-github"></i>
+                      </button>
+                    </a>
+                    <a href="https://twitter.com/abilash15567496" target="_blank">
+                      <button className='btn_shadow'>
+                        <i className="fab fa-twitter"></i>
+                      </button>
+                    </a>
+                    <a href="https://fb.com/ravindran.abilash.7" target="_blank">
+                      <button className='btn_shadow'>
+                        <i className='fab fa-facebook-f'></i>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
