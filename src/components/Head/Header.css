@@ -15,7 +15,7 @@
     letter-spacing: 1px;
 }
 .header ul li a:hover {
-    color: #ff014f;
+    color: #3E54D3;
 }
 .home-btn {
     padding: 18px 25px;
@@ -23,14 +23,14 @@
     transition: 0.3s all ease;
     cursor: pointer;
     height: fit-content;
-    color: #ff014f;
+    color: #3E54D3;
 }
 .home-btn {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .home-btn:hover {
-    background: #ff014f;
+    background: #3E54D3;
     color: white;
 }
 .open {
@@ -43,7 +43,7 @@
     z-index: 1000;
     width: 100%;
     background-color: #ecf0f3;
-    box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 11px 24px -11px #141a44;
     transition: 0.5s;
 }
 @media (max-width: 768px) {
@@ -77,7 +77,7 @@
         position: absolute;
         top: 35px;
         right: 20px;
-        color: #ff014f;
+        color: #3E54D3;
         display: block;
         font-size: 25px;
         z-index: 999;
@@ -87,7 +87,7 @@
     }
     .close.home-btn {
         background: linear-gradient(145deg, #e2e8ec, #ffffff);
-        color: #ff014f;
+        color: #3E54D3;
         border-radius: 50%;
         padding: 0;
         width: 60px;
