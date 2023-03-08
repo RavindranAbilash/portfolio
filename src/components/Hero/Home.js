@@ -6,6 +6,7 @@ import hero1 from "../pic/hero1.png"
 // import skill2 from "../pic/skill2.png"
 // import skill3 from "../pic/skill3.png"
 import {Typewriter} from "react-simple-typewriter"
+import PageDivider from "../pageDivider/PageDivider";
 
 const Home = () => {
     return (
@@ -59,6 +60,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <PageDivider/>
         </>
     )
 }

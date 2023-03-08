@@ -2,6 +2,7 @@ import React from "react"
 import "./Portfolio.css"
 import Card from "./Card"
 import Portfolio_data from "./Portfolio_data"
+import PageDivider from "../pageDivider/PageDivider";
 
 const Portfolio = () => {
   return (
@@ -20,6 +21,7 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
+      <PageDivider/>
     </>
   )
 }

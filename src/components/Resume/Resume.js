@@ -2,6 +2,7 @@ import React from "react"
 import "./Resume.css"
 import ResumeApi from "./ResumeApi"
 import Card from "./Card"
+import PageDivider from "../pageDivider/PageDivider";
 
 const Resume = () => {
   return (
@@ -9,7 +10,7 @@ const Resume = () => {
       <section className='Resume' id='resume'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>7+ YEARS OF EXPERIENCE</h4>
+            {/*<h4>7+ YEARS OF EXPERIENCE</h4>*/}
             <h1>My Resume</h1>
           </div>
 
@@ -44,6 +45,7 @@ const Resume = () => {
           </div>
         </div>
       </section>
+      <PageDivider/>
     </>
   )
 }

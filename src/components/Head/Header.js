@@ -3,6 +3,8 @@ import React, { useState } from "react"
 //style sheet
 import "./Header.css"
 
+import cv from '../pic/Abilash.pdf'
+
 //image for logo
 import logo from "../../images/logo.png"
 
@@ -33,7 +35,7 @@ const Header = () => {
                                 <a href='#home'>home</a>
                             </li>
                             <li>
-                                <a href='#features'>features</a>
+                                <a href='#features'>Skills</a>
                             </li>
                             <li>
                                 <a href='#portfolio'>portfolio</a>
@@ -48,7 +50,9 @@ const Header = () => {
                                 <a href='#contact'>contact</a>
                             </li>
                             <li>
+                                <a href={cv} download>
                                 <button className='home-btn'>DOWNLOAD CV</button>
+                                </a>
                             </li>
                         </ul>
 

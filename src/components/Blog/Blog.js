@@ -3,6 +3,7 @@ import "../Portfolio/Portfolio.css"
 import "../Blog/Blog.css"
 import Card from "./Card"
 import BlogApi from "./BlogApi"
+import PageDivider from "../pageDivider/PageDivider";
 
 const Blog = () => {
   return (
@@ -21,6 +22,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
+      <PageDivider/>
     </>
   )
 }
