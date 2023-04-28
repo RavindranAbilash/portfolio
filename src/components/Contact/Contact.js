@@ -52,7 +52,7 @@ const Contact = () => {
                   <p>Undergraduate @ University of Peradeniya  </p>
                   <p><br/><br/></p>
                   <p>Phone: 0094 76 764 2021</p>
-                  <p>Email: abilashravindran08@gmail.com</p> <br />
+                  <p>Email: ravindranabilash8@gmail.com</p> <br />
                   <p><br/></p>
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
